@@ -1,4 +1,4 @@
-# Comparing Energy Efficiency in ROS Communication]{Comparing Energy Efficiency in ROS Communication Across Programming Languages (under review)
+# Comparing Energy Efficiency in ROS Communication Across Programming Languages and Preset Workloads (under review)
 Replication package of our paper that compares de energy efficiency of Python and C++ for ROS 2 projetcs. Document under supervision at `Frontiers Robotics and AI`.
 
 ## How to cite us
