@@ -1,0 +1,2 @@
+/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)

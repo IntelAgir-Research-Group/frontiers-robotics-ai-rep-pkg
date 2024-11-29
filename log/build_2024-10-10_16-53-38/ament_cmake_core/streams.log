@@ -1,0 +1,19 @@
+[0.041s] Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/ament_cmake_core': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/ament_cmake/ament_cmake_core -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_core
+[0.785s] Traceback (most recent call last):
+[0.786s]   File "/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/ament_cmake/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.786s]     from ament_package.templates import get_environment_hook_template_path
+[0.786s] ModuleNotFoundError: No module named 'ament_package'
+[0.786s] CMake Error at ament_cmake_package_templates-extras.cmake:41 (message):
+[0.787s]   
+[0.787s]   execute_process(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python3
+[0.787s]   /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/ament_cmake/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.787s]   /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/ament_cmake_core/ament_cmake_package_templates/templates.cmake)
+[0.787s]   returned error code 1
+[0.787s] Call Stack (most recent call first):
+[0.787s]   CMakeLists.txt:19 (include)
+[0.788s] 
+[0.788s] 
+[0.788s] -- Found Python3: /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python3 (found version "3.11.6") found components: Interpreter
+[0.788s] -- ament_cmake_core 2.7.1
+[0.788s] -- Configuring incomplete, errors occurred!
+[0.917s] Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/ament_cmake_core' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/ament_cmake/ament_cmake_core -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_core

@@ -1,0 +1,37 @@
+[0.682s] Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim': PYTHONPATH=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages: SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlesim build --build-base /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build install --record /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log --single-version-externally-managed install_data
+[0.908s] running egg_info
+[0.909s] creating ../../build/my_turtlesim/my_turtlesim.egg-info
+[0.912s] writing ../../build/my_turtlesim/my_turtlesim.egg-info/PKG-INFO
+[0.912s] writing dependency_links to ../../build/my_turtlesim/my_turtlesim.egg-info/dependency_links.txt
+[0.912s] writing entry points to ../../build/my_turtlesim/my_turtlesim.egg-info/entry_points.txt
+[0.912s] writing requirements to ../../build/my_turtlesim/my_turtlesim.egg-info/requires.txt
+[0.912s] writing top-level names to ../../build/my_turtlesim/my_turtlesim.egg-info/top_level.txt
+[0.912s] writing manifest file '../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+[0.919s] reading manifest file '../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+[0.920s] writing manifest file '../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'
+[0.921s] running build
+[0.921s] running build_py
+[0.921s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build
+[0.921s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib
+[0.922s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim
+[0.923s] copying my_turtlesim/turtlesim_node.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim
+[0.923s] copying my_turtlesim/__init__.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim
+[0.923s] running install
+[0.929s] running install_lib
+[0.932s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim
+[0.932s] copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim/turtlesim_node.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim
+[0.932s] copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim/__init__.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim
+[0.932s] byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim/turtlesim_node.py to turtlesim_node.cpython-311.pyc
+[0.934s] byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim/__init__.py to __init__.cpython-311.pyc
+[0.934s] running install_data
+[0.934s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index
+[0.934s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index/resource_index
+[0.934s] creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index/resource_index/packages
+[0.935s] copying resource/my_turtlesim -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index/resource_index/packages
+[0.935s] copying package.xml -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim
+[0.935s] running install_egg_info
+[0.939s] Copying ../../build/my_turtlesim/my_turtlesim.egg-info to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim-0.0.0-py3.11.egg-info
+[0.940s] running install_scripts
+[0.977s] Installing turtlesim_node script to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/my_turtlesim
+[0.977s] writing list of installed files to '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log'
+[1.040s] Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim' returned '0': PYTHONPATH=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages: SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlesim build --build-base /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build install --record /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log --single-version-externally-managed install_data

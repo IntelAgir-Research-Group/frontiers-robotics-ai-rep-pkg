@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.000338] (comp_simple_publisher_subscriber_cpp) JobQueued: {'identifier': 'comp_simple_publisher_subscriber_cpp', 'dependencies': OrderedDict()}
+[0.000376] (my_turtlesim) JobQueued: {'identifier': 'my_turtlesim', 'dependencies': OrderedDict()}
+[0.000423] (my_turtlesim_cpp) JobQueued: {'identifier': 'my_turtlesim_cpp', 'dependencies': OrderedDict()}
+[0.000468] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.000487] (simple_pub_sub_cpp) JobQueued: {'identifier': 'simple_pub_sub_cpp', 'dependencies': OrderedDict()}
+[0.000521] (simple_pub_sub_py) JobQueued: {'identifier': 'simple_pub_sub_py', 'dependencies': OrderedDict()}
+[0.000555] (simple_publisher_subscriber_cpp) JobQueued: {'identifier': 'simple_publisher_subscriber_cpp', 'dependencies': OrderedDict()}
+[0.000569] (simple_publisher_subscriber_py) JobQueued: {'identifier': 'simple_publisher_subscriber_py', 'dependencies': OrderedDict()}
+[0.000583] (simple_service_client_cpp) JobQueued: {'identifier': 'simple_service_client_cpp', 'dependencies': OrderedDict()}
+[0.000600] (simple_service_client_py) JobQueued: {'identifier': 'simple_service_client_py', 'dependencies': OrderedDict()}
+[0.000694] (tf2_broadcaster_cpp) JobQueued: {'identifier': 'tf2_broadcaster_cpp', 'dependencies': OrderedDict()}
+[0.000709] (tf2_broadcaster_py) JobQueued: {'identifier': 'tf2_broadcaster_py', 'dependencies': OrderedDict()}
+[0.000730] (tf2_listener_cpp) JobQueued: {'identifier': 'tf2_listener_cpp', 'dependencies': OrderedDict()}
+[0.000742] (tf2_listener_py) JobQueued: {'identifier': 'tf2_listener_py', 'dependencies': OrderedDict()}
+[0.000750] (tf2_static_broadcaster_cpp) JobQueued: {'identifier': 'tf2_static_broadcaster_cpp', 'dependencies': OrderedDict()}
+[0.000759] (tf2_static_broadcaster_py) JobQueued: {'identifier': 'tf2_static_broadcaster_py', 'dependencies': OrderedDict()}
+[0.000774] (turtlesim_linear_cpp) JobQueued: {'identifier': 'turtlesim_linear_cpp', 'dependencies': OrderedDict()}
+[0.000783] (turtlesim_linear_py) JobQueued: {'identifier': 'turtlesim_linear_py', 'dependencies': OrderedDict()}
+[0.000794] (action_tutorials_cpp) JobQueued: {'identifier': 'action_tutorials_cpp', 'dependencies': OrderedDict([('action_tutorials_interfaces', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces')])}
+[0.000865] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/polygon_base')])}
+[0.000891] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.005433] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.009182] (comp_simple_publisher_subscriber_cpp) JobStarted: {'identifier': 'comp_simple_publisher_subscriber_cpp'}
+[0.012804] (my_turtlesim) JobStarted: {'identifier': 'my_turtlesim'}
+[0.017956] (my_turtlesim_cpp) JobStarted: {'identifier': 'my_turtlesim_cpp'}
+[0.021685] (simple_pub_sub_cpp) JobStarted: {'identifier': 'simple_pub_sub_cpp'}
+[0.024813] (simple_pub_sub_py) JobStarted: {'identifier': 'simple_pub_sub_py'}
+[0.029188] (simple_publisher_subscriber_cpp) JobStarted: {'identifier': 'simple_publisher_subscriber_cpp'}
+[0.035302] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.035541] (action_tutorials_interfaces) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_interfaces', '-DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/action_tutorials_interfaces', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('ZDOTDIR', '/Users/professormichel'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('USER', 'professormichel'), ('COMMAND_MODE', 'unix2003'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F7:0x0:0x0'), ('VIRTUAL_ENV', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv'), ('PATH', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin'), ('USER_ZDOTDIR', '/Users/professormichel'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/action_tutorials_interfaces'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/professormichel'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'professormichel'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', ':/usr/local/opt/qt'), ('DISPLAY', '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.038553] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.038708] (polygon_base) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/polygon_base'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/polygon_base', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('ZDOTDIR', '/Users/professormichel'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('USER', 'professormichel'), ('COMMAND_MODE', 'unix2003'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F7:0x0:0x0'), ('VIRTUAL_ENV', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv'), ('PATH', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin'), ('USER_ZDOTDIR', '/Users/professormichel'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/polygon_base'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/professormichel'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'professormichel'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', ':/usr/local/opt/qt'), ('DISPLAY', '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.041076] (comp_simple_publisher_subscriber_cpp) JobProgress: {'identifier': 'comp_simple_publisher_subscriber_cpp', 'progress': 'cmake'}
+[0.041233] (comp_simple_publisher_subscriber_cpp) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/composable_node _cpp', '-DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/comp_simple_publisher_subscriber_cpp', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('ZDOTDIR', '/Users/professormichel'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('USER', 'professormichel'), ('COMMAND_MODE', 'unix2003'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F7:0x0:0x0'), ('VIRTUAL_ENV', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv'), ('PATH', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin'), ('USER_ZDOTDIR', '/Users/professormichel'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/comp_simple_publisher_subscriber_cpp'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/professormichel'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'professormichel'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', ':/usr/local/opt/qt'), ('DISPLAY', '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.104841] (-) TimerEvent: {}
+[0.186495] (my_turtlesim_cpp) JobProgress: {'identifier': 'my_turtlesim_cpp', 'progress': 'cmake'}
+[0.187024] (my_turtlesim_cpp) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old _my_turtlesim_cpp', '-DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim_cpp'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim_cpp', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('ZDOTDIR', '/Users/professormichel'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('USER', 'professormichel'), ('COMMAND_MODE', 'unix2003'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F7:0x0:0x0'), ('VIRTUAL_ENV', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv'), ('PATH', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin'), ('USER_ZDOTDIR', '/Users/professormichel'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim_cpp'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/professormichel'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'professormichel'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', ':/usr/local/opt/qt'), ('DISPLAY', '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.190028] (simple_pub_sub_cpp) JobProgress: {'identifier': 'simple_pub_sub_cpp', 'progress': 'cmake'}
+[0.190221] (simple_pub_sub_cpp) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_cpp', '-DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_cpp', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('ZDOTDIR', '/Users/professormichel'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('USER', 'professormichel'), ('COMMAND_MODE', 'unix2003'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F7:0x0:0x0'), ('VIRTUAL_ENV', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv'), ('PATH', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin'), ('USER_ZDOTDIR', '/Users/professormichel'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_cpp'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/professormichel'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'professormichel'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', ':/usr/local/opt/qt'), ('DISPLAY', '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.208071] (-) TimerEvent: {}
+[0.313318] (-) TimerEvent: {}
+[0.342129] (simple_publisher_subscriber_cpp) JobProgress: {'identifier': 'simple_publisher_subscriber_cpp', 'progress': 'cmake'}
+[0.342339] (simple_publisher_subscriber_cpp) Command: {'cmd': ['/opt/homebrew/bin/cmake', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_cpp', '-DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_publisher_subscriber_cpp', 'env': OrderedDict([('TERM_PROGRAM', 'vscode'), ('TERM', 'xterm-256color'), ('SHELL', '/bin/zsh'), ('HOMEBREW_REPOSITORY', '/opt/homebrew'), ('TMPDIR', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('ZDOTDIR', '/Users/professormichel'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'undefined'), ('MallocNanoZone', '0'), ('USER', 'professormichel'), ('COMMAND_MODE', 'unix2003'), ('SSH_AUTH_SOCK', '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners'), ('__CF_USER_TEXT_ENCODING', '0x1F7:0x0:0x0'), ('VIRTUAL_ENV', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv'), ('PATH', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin'), ('USER_ZDOTDIR', '/Users/professormichel'), ('__CFBundleIdentifier', 'com.microsoft.VSCode'), ('PWD', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_publisher_subscriber_cpp'), ('COLCON', '1'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XPC_FLAGS', '0x0'), ('XPC_SERVICE_NAME', '0'), ('VSCODE_INJECTION', '1'), ('SHLVL', '2'), ('HOME', '/Users/professormichel'), ('VSCODE_GIT_ASKPASS_MAIN', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'), ('HOMEBREW_PREFIX', '/opt/homebrew'), ('LOGNAME', 'professormichel'), ('VSCODE_GIT_IPC_HANDLE', '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock'), ('VSCODE_GIT_ASKPASS_NODE', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'), ('GIT_ASKPASS', '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'), ('INFOPATH', '/opt/homebrew/share/info:/opt/homebrew/share/info:'), ('HOMEBREW_CELLAR', '/opt/homebrew/Cellar'), ('CMAKE_PREFIX_PATH', ':/usr/local/opt/qt'), ('DISPLAY', '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('COLORTERM', 'truecolor'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.414925] (-) TimerEvent: {}
+[0.520199] (-) TimerEvent: {}
+[0.625470] (-) TimerEvent: {}
+[0.690078] (my_turtlesim) Command: {'cmd': ['/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtlesim', 'build', '--build-base', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build', 'install', '--record', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim', 'env': {'TERM_PROGRAM': 'vscode', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/', 'TERM_PROGRAM_VERSION': '1.92.2', 'ZDOTDIR': '/Users/professormichel', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'MallocNanoZone': '0', 'USER': 'professormichel', 'COMMAND_MODE': 'unix2003', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F7:0x0:0x0', 'VIRTUAL_ENV': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv', 'PATH': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin', 'USER_ZDOTDIR': '/Users/professormichel', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PWD': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim', 'COLCON': '1', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'XPC_FLAGS': '0x0', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'SHLVL': '2', 'HOME': '/Users/professormichel', 'VSCODE_GIT_ASKPASS_MAIN': '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'HOMEBREW_PREFIX': '/opt/homebrew', 'LOGNAME': 'professormichel', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock', 'VSCODE_GIT_ASKPASS_NODE': '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'GIT_ASKPASS': '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'CMAKE_PREFIX_PATH': ':/usr/local/opt/qt', 'DISPLAY': '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'COLORTERM': 'truecolor', '_': '/usr/bin/env', 'PYTHONPATH': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages:'}, 'shell': False}
+[0.695907] (simple_pub_sub_py) Command: {'cmd': ['/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simple_pub_sub_py', 'build', '--build-base', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build', 'install', '--record', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_py', 'env': {'TERM_PROGRAM': 'vscode', 'TERM': 'xterm-256color', 'SHELL': '/bin/zsh', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'TMPDIR': '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/', 'TERM_PROGRAM_VERSION': '1.92.2', 'ZDOTDIR': '/Users/professormichel', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined', 'MallocNanoZone': '0', 'USER': 'professormichel', 'COMMAND_MODE': 'unix2003', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.B3TGEDkEI8/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F7:0x0:0x0', 'VIRTUAL_ENV': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv', 'PATH': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Users/professormichel/Documents/google-cloud-sdk/bin:/usr/local/opt/qt/bin', 'USER_ZDOTDIR': '/Users/professormichel', '__CFBundleIdentifier': 'com.microsoft.VSCode', 'PWD': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py', 'COLCON': '1', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'XPC_FLAGS': '0x0', 'XPC_SERVICE_NAME': '0', 'VSCODE_INJECTION': '1', 'SHLVL': '2', 'HOME': '/Users/professormichel', 'VSCODE_GIT_ASKPASS_MAIN': '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js', 'HOMEBREW_PREFIX': '/opt/homebrew', 'LOGNAME': 'professormichel', 'VSCODE_GIT_IPC_HANDLE': '/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/vscode-git-1dedae1a7d.sock', 'VSCODE_GIT_ASKPASS_NODE': '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)', 'GIT_ASKPASS': '/private/var/folders/k4/2t7w5kwx6pxg20p6lbm46qj40000gq/T/AppTranslocation/E426206F-825A-4683-BE30-15EA733218F4/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh', 'INFOPATH': '/opt/homebrew/share/info:/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'CMAKE_PREFIX_PATH': ':/usr/local/opt/qt', 'DISPLAY': '/private/tmp/com.apple.launchd.CHHtbIRmsn/org.xquartz:0', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'COLORTERM': 'truecolor', '_': '/usr/bin/env', 'PYTHONPATH': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages:'}, 'shell': False}
+[0.714378] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.719167] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.719602] (my_turtlesim_cpp) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.723788] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.724207] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.725769] (-) TimerEvent: {}
+[0.727572] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.803136] (my_turtlesim_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.807005] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.813569] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.816878] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.820388] (action_tutorials_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.820631] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.820781] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.825237] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.825918] (-) TimerEvent: {}
+[0.828111] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.829298] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 15.0.0.15000309\n'}
+[0.830686] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.841918] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.921439] (simple_pub_sub_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.921641] (my_turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.921794] (simple_pub_sub_py) StdoutLine: {'line': b'creating ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info\n'}
+[0.921981] (my_turtlesim) StdoutLine: {'line': b'creating ../../build/my_turtlesim/my_turtlesim.egg-info\n'}
+[0.924634] (simple_pub_sub_py) StdoutLine: {'line': b'writing ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/PKG-INFO\n'}
+[0.925025] (my_turtlesim) StdoutLine: {'line': b'writing ../../build/my_turtlesim/my_turtlesim.egg-info/PKG-INFO\n'}
+[0.925187] (my_turtlesim) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtlesim/my_turtlesim.egg-info/dependency_links.txt\n'}
+[0.925235] (simple_pub_sub_py) StdoutLine: {'line': b'writing dependency_links to ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/dependency_links.txt\n'}
+[0.925273] (my_turtlesim) StdoutLine: {'line': b'writing entry points to ../../build/my_turtlesim/my_turtlesim.egg-info/entry_points.txt\n'}
+[0.925302] (my_turtlesim) StdoutLine: {'line': b'writing requirements to ../../build/my_turtlesim/my_turtlesim.egg-info/requires.txt\n'}
+[0.925330] (simple_pub_sub_py) StdoutLine: {'line': b'writing entry points to ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/entry_points.txt\n'}
+[0.925396] (my_turtlesim) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtlesim/my_turtlesim.egg-info/top_level.txt\n'}
+[0.925533] (simple_pub_sub_py) StdoutLine: {'line': b'writing requirements to ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/requires.txt\n'}
+[0.925600] (simple_pub_sub_py) StdoutLine: {'line': b'writing top-level names to ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/top_level.txt\n'}
+[0.925629] (simple_pub_sub_py) StdoutLine: {'line': b"writing manifest file '../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/SOURCES.txt'\n"}
+[0.925657] (my_turtlesim) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'\n"}
+[0.926005] (-) TimerEvent: {}
+[0.931990] (my_turtlesim) StdoutLine: {'line': b"reading manifest file '../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'\n"}
+[0.932438] (simple_pub_sub_py) StdoutLine: {'line': b"reading manifest file '../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/SOURCES.txt'\n"}
+[0.932654] (my_turtlesim) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlesim/my_turtlesim.egg-info/SOURCES.txt'\n"}
+[0.933973] (my_turtlesim) StdoutLine: {'line': b'running build\n'}
+[0.934129] (my_turtlesim) StdoutLine: {'line': b'running build_py\n'}
+[0.934239] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build\n'}
+[0.934402] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib\n'}
+[0.935194] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim\n'}
+[0.935324] (simple_pub_sub_py) StdoutLine: {'line': b"writing manifest file '../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info/SOURCES.txt'\n"}
+[0.935436] (simple_pub_sub_py) StdoutLine: {'line': b'running build\n'}
+[0.935540] (simple_pub_sub_py) StdoutLine: {'line': b'running build_py\n'}
+[0.935718] (my_turtlesim) StdoutLine: {'line': b'copying my_turtlesim/turtlesim_node.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim\n'}
+[0.935922] (my_turtlesim) StdoutLine: {'line': b'copying my_turtlesim/__init__.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim\n'}
+[0.936115] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build\n'}
+[0.936233] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib\n'}
+[0.936340] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py\n'}
+[0.936445] (simple_pub_sub_py) StdoutLine: {'line': b'copying simple_pub_sub_py/minimal_publisher.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py\n'}
+[0.936553] (my_turtlesim) StdoutLine: {'line': b'running install\n'}
+[0.936658] (simple_pub_sub_py) StdoutLine: {'line': b'copying simple_pub_sub_py/minimal_subscriber.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py\n'}
+[0.936908] (simple_pub_sub_py) StdoutLine: {'line': b'copying simple_pub_sub_py/__init__.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py\n'}
+[0.936957] (simple_pub_sub_py) StdoutLine: {'line': b'running install\n'}
+[0.941576] (my_turtlesim) StdoutLine: {'line': b'running install_lib\n'}
+[0.941984] (simple_pub_sub_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.945423] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim\n'}
+[0.945516] (my_turtlesim) StdoutLine: {'line': b'copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim/turtlesim_node.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim\n'}
+[0.945556] (my_turtlesim) StdoutLine: {'line': b'copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build/lib/my_turtlesim/__init__.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim\n'}
+[0.945595] (my_turtlesim) StdoutLine: {'line': b'byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim/turtlesim_node.py to turtlesim_node.cpython-311.pyc\n'}
+[0.947029] (my_turtlesim) StdoutLine: {'line': b'byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim/__init__.py to __init__.cpython-311.pyc\n'}
+[0.947087] (my_turtlesim) StdoutLine: {'line': b'running install_data\n'}
+[0.947121] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index\n'}
+[0.947488] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index/resource_index\n'}
+[0.947775] (my_turtlesim) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index/resource_index/packages\n'}
+[0.947822] (my_turtlesim) StdoutLine: {'line': b'copying resource/my_turtlesim -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/ament_index/resource_index/packages\n'}
+[0.947868] (my_turtlesim) StdoutLine: {'line': b'copying package.xml -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim\n'}
+[0.947897] (my_turtlesim) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.947926] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py\n'}
+[0.947961] (simple_pub_sub_py) StdoutLine: {'line': b'copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py/minimal_publisher.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py\n'}
+[0.947996] (simple_pub_sub_py) StdoutLine: {'line': b'copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py/minimal_subscriber.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py\n'}
+[0.948162] (simple_pub_sub_py) StdoutLine: {'line': b'copying /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build/lib/simple_pub_sub_py/__init__.py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py\n'}
+[0.948981] (simple_pub_sub_py) StdoutLine: {'line': b'byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py/minimal_publisher.py to minimal_publisher.cpython-311.pyc\n'}
+[0.949555] (simple_pub_sub_py) StdoutLine: {'line': b'byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py/minimal_subscriber.py to minimal_subscriber.cpython-311.pyc\n'}
+[0.950428] (simple_pub_sub_py) StdoutLine: {'line': b'byte-compiling /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py/__init__.py to __init__.cpython-311.pyc\n'}
+[0.950589] (simple_pub_sub_py) StdoutLine: {'line': b'running install_data\n'}
+[0.950703] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/ament_index\n'}
+[0.952243] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/ament_index/resource_index\n'}
+[0.952407] (simple_pub_sub_py) StdoutLine: {'line': b'creating /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/ament_index/resource_index/packages\n'}
+[0.952529] (simple_pub_sub_py) StdoutLine: {'line': b'copying resource/simple_pub_sub_py -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/ament_index/resource_index/packages\n'}
+[0.952637] (my_turtlesim) StdoutLine: {'line': b'Copying ../../build/my_turtlesim/my_turtlesim.egg-info to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages/my_turtlesim-0.0.0-py3.11.egg-info\n'}
+[0.952751] (simple_pub_sub_py) StdoutLine: {'line': b'copying package.xml -> /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py\n'}
+[0.952853] (simple_pub_sub_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.953083] (my_turtlesim) StdoutLine: {'line': b'running install_scripts\n'}
+[0.957554] (simple_pub_sub_py) StdoutLine: {'line': b'Copying ../../build/simple_pub_sub_py/simple_pub_sub_py.egg-info to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages/simple_pub_sub_py-0.0.0-py3.11.egg-info\n'}
+[0.964673] (simple_pub_sub_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.989303] (my_turtlesim) StdoutLine: {'line': b'Installing turtlesim_node script to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/my_turtlesim\n'}
+[0.990537] (my_turtlesim) StdoutLine: {'line': b"writing list of installed files to '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log'\n"}
+[0.998850] (simple_pub_sub_py) StdoutLine: {'line': b'Installing listener script to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/simple_pub_sub_py\n'}
+[0.999126] (simple_pub_sub_py) StdoutLine: {'line': b'Installing talker script to /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/simple_pub_sub_py\n'}
+[0.999221] (simple_pub_sub_py) StdoutLine: {'line': b"writing list of installed files to '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/install.log'\n"}
+[1.030209] (-) TimerEvent: {}
+[1.053654] (my_turtlesim) CommandEnded: {'returncode': 0}
+[1.083864] (my_turtlesim) JobEnded: {'identifier': 'my_turtlesim', 'rc': 0}
+[1.086399] (simple_publisher_subscriber_py) JobStarted: {'identifier': 'simple_publisher_subscriber_py'}
+[1.106128] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.114908] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.116396] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.116599] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.116735] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.118110] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.131736] (-) TimerEvent: {}
+[1.238285] (-) TimerEvent: {}
+[1.343594] (-) TimerEvent: {}
+[1.449834] (-) TimerEvent: {}
+[1.453139] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[1.453586] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.453644] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.453858] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.453951] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.453986] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[1.454149] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.454655] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.454699] (simple_pub_sub_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.454778] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[1.454923] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.455000] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.455111] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.455153] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.455291] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[1.455345] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.455399] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.455455] (polygon_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.455493] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[1.455562] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.455641] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.455732] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.455779] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.455826] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[1.455889] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.455933] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.455969] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.456008] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[1.456061] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.456101] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.456137] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.456173] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.456207] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[1.456240] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.456287] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.456335] (simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.456414] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[1.456792] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.456880] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.457216] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.457550] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.457614] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[1.457802] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.457844] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.457880] (my_turtlesim_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.457908] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped\n'}
+[1.457951] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.457996] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.458073] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.458198] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.458321] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped\n'}
+[1.458370] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.458406] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.458450] (comp_simple_publisher_subscriber_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.458483] (simple_pub_sub_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.458633] (simple_pub_sub_cpp) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.458782] (simple_pub_sub_cpp) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.458842] (simple_pub_sub_cpp) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.458876] (simple_pub_sub_cpp) StderrLine: {'line': b'\n'}
+[1.458938] (simple_pub_sub_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.459166] (simple_pub_sub_cpp) StderrLine: {'line': b'  any of the following names:\n'}
+[1.459419] (simple_pub_sub_cpp) StderrLine: {'line': b'\n'}
+[1.459456] (simple_pub_sub_cpp) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.459651] (simple_pub_sub_cpp) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.459687] (simple_pub_sub_cpp) StderrLine: {'line': b'\n'}
+[1.459716] (simple_pub_sub_cpp) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.459762] (simple_pub_sub_cpp) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.459833] (simple_pub_sub_cpp) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.459963] (simple_pub_sub_cpp) StderrLine: {'line': b'  has been installed.\n'}
+[1.460128] (simple_pub_sub_cpp) StderrLine: {'line': b'\n'}
+[1.460163] (simple_pub_sub_cpp) StderrLine: {'line': b'\n'}
+[1.460193] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[1.460370] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.460514] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.460553] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.460588] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.460631] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.460770] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  any of the following names:\n'}
+[1.460804] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.460922] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.460956] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.461003] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.461163] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.461283] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.461336] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.461370] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'  has been installed.\n'}
+[1.461443] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.461521] (comp_simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.461556] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[1.461607] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.461650] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.461711] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.461756] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.461893] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.462000] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  any of the following names:\n'}
+[1.463489] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.463724] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.463771] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.463801] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.463832] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.463860] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.463889] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.463931] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'  has been installed.\n'}
+[1.464712] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.464920] (simple_publisher_subscriber_cpp) StderrLine: {'line': b'\n'}
+[1.465072] (action_tutorials_interfaces) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.466290] (action_tutorials_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.466415] (action_tutorials_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.466444] (action_tutorials_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.466471] (action_tutorials_interfaces) StderrLine: {'line': b'\n'}
+[1.467333] (action_tutorials_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.467407] (action_tutorials_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[1.467451] (action_tutorials_interfaces) StderrLine: {'line': b'\n'}
+[1.467869] (action_tutorials_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.467996] (action_tutorials_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.468095] (action_tutorials_interfaces) StderrLine: {'line': b'\n'}
+[1.468193] (action_tutorials_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.468625] (action_tutorials_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.468660] (action_tutorials_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.468693] (action_tutorials_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[1.469035] (action_tutorials_interfaces) StderrLine: {'line': b'\n'}
+[1.469077] (action_tutorials_interfaces) StderrLine: {'line': b'\n'}
+[1.469110] (polygon_base) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.469178] (polygon_base) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.469215] (polygon_base) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.469244] (polygon_base) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.469276] (polygon_base) StderrLine: {'line': b'\n'}
+[1.471463] (polygon_base) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.471648] (polygon_base) StderrLine: {'line': b'  any of the following names:\n'}
+[1.471682] (polygon_base) StderrLine: {'line': b'\n'}
+[1.471710] (polygon_base) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.471738] (polygon_base) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.471766] (polygon_base) StderrLine: {'line': b'\n'}
+[1.471792] (polygon_base) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.471824] (polygon_base) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.471850] (polygon_base) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.471878] (polygon_base) StderrLine: {'line': b'  has been installed.\n'}
+[1.471913] (polygon_base) StderrLine: {'line': b'\n'}
+[1.471942] (polygon_base) StderrLine: {'line': b'\n'}
+[1.471972] (my_turtlesim_cpp) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.472061] (my_turtlesim_cpp) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.472089] (my_turtlesim_cpp) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.472143] (my_turtlesim_cpp) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.472171] (my_turtlesim_cpp) StderrLine: {'line': b'\n'}
+[1.472197] (my_turtlesim_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.472224] (my_turtlesim_cpp) StderrLine: {'line': b'  any of the following names:\n'}
+[1.472250] (my_turtlesim_cpp) StderrLine: {'line': b'\n'}
+[1.472276] (my_turtlesim_cpp) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.472302] (my_turtlesim_cpp) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.472328] (my_turtlesim_cpp) StderrLine: {'line': b'\n'}
+[1.472354] (my_turtlesim_cpp) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.472380] (my_turtlesim_cpp) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.472406] (my_turtlesim_cpp) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.472432] (my_turtlesim_cpp) StderrLine: {'line': b'  has been installed.\n'}
+[1.472458] (my_turtlesim_cpp) StderrLine: {'line': b'\n'}
+[1.472484] (my_turtlesim_cpp) StderrLine: {'line': b'\n'}
+[1.472574] (simple_pub_sub_py) CommandEnded: {'returncode': 0}
+[1.474149] (simple_pub_sub_py) JobEnded: {'identifier': 'simple_pub_sub_py', 'rc': 0}
+[1.477664] (simple_pub_sub_cpp) CommandEnded: {'returncode': 1}
+[1.478190] (comp_simple_publisher_subscriber_cpp) CommandEnded: {'returncode': 1}
+[1.478348] (simple_publisher_subscriber_cpp) CommandEnded: {'returncode': 1}
+[1.478467] (action_tutorials_interfaces) CommandEnded: {'returncode': 1}
+[1.480559] (polygon_base) CommandEnded: {'returncode': 1}
+[1.485250] (my_turtlesim_cpp) CommandEnded: {'returncode': 1}
+[1.491845] (simple_service_client_cpp) JobStarted: {'identifier': 'simple_service_client_cpp'}
+[1.505928] (simple_pub_sub_cpp) JobEnded: {'identifier': 'simple_pub_sub_cpp', 'rc': 1}
+[1.510263] (comp_simple_publisher_subscriber_cpp) JobEnded: {'identifier': 'comp_simple_publisher_subscriber_cpp', 'rc': 1}
+[1.515325] (simple_publisher_subscriber_cpp) JobEnded: {'identifier': 'simple_publisher_subscriber_cpp', 'rc': 1}
+[1.519041] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 1}
+[1.520459] (simple_service_client_cpp) JobEnded: {'identifier': 'simple_service_client_cpp', 'rc': 'SIGINT'}
+[1.520901] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 'SIGINT'}
+[1.521324] (my_turtlesim_cpp) JobEnded: {'identifier': 'my_turtlesim_cpp', 'rc': 'SIGINT'}
+[1.552687] (-) TimerEvent: {}
+[1.653501] (-) TimerEvent: {}
+[1.758691] (-) TimerEvent: {}
+[1.764421] (simple_publisher_subscriber_py) JobEnded: {'identifier': 'simple_publisher_subscriber_py', 'rc': 'SIGINT'}
+[1.764954] (simple_service_client_py) JobSkipped: {'identifier': 'simple_service_client_py'}
+[1.764968] (tf2_broadcaster_cpp) JobSkipped: {'identifier': 'tf2_broadcaster_cpp'}
+[1.764976] (tf2_broadcaster_py) JobSkipped: {'identifier': 'tf2_broadcaster_py'}
+[1.764983] (tf2_listener_cpp) JobSkipped: {'identifier': 'tf2_listener_cpp'}
+[1.764989] (tf2_listener_py) JobSkipped: {'identifier': 'tf2_listener_py'}
+[1.764996] (tf2_static_broadcaster_cpp) JobSkipped: {'identifier': 'tf2_static_broadcaster_cpp'}
+[1.765002] (tf2_static_broadcaster_py) JobSkipped: {'identifier': 'tf2_static_broadcaster_py'}
+[1.765008] (turtlesim_linear_cpp) JobSkipped: {'identifier': 'turtlesim_linear_cpp'}
+[1.765015] (turtlesim_linear_py) JobSkipped: {'identifier': 'turtlesim_linear_py'}
+[1.765029] (action_tutorials_cpp) JobSkipped: {'identifier': 'action_tutorials_cpp'}
+[1.765035] (polygon_plugins) JobSkipped: {'identifier': 'polygon_plugins'}
+[1.765042] (-) EventReactorShutdown: {}

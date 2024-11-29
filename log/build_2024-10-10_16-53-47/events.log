@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000164] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000281] (-) JobUnselected: {'identifier': 'ament_cmake_auto'}
+[0.000355] (-) JobUnselected: {'identifier': 'ament_cmake_core'}
+[0.000370] (-) JobUnselected: {'identifier': 'ament_cmake_export_definitions'}
+[0.000382] (-) JobUnselected: {'identifier': 'ament_cmake_export_dependencies'}
+[0.000394] (-) JobUnselected: {'identifier': 'ament_cmake_export_include_directories'}
+[0.000421] (-) JobUnselected: {'identifier': 'ament_cmake_export_interfaces'}
+[0.000433] (-) JobUnselected: {'identifier': 'ament_cmake_export_libraries'}
+[0.000442] (-) JobUnselected: {'identifier': 'ament_cmake_export_link_flags'}
+[0.000449] (-) JobUnselected: {'identifier': 'ament_cmake_export_targets'}
+[0.000465] (-) JobUnselected: {'identifier': 'ament_cmake_gen_version_h'}
+[0.000474] (-) JobUnselected: {'identifier': 'ament_cmake_gmock'}
+[0.000482] (-) JobUnselected: {'identifier': 'ament_cmake_google_benchmark'}
+[0.000489] (-) JobUnselected: {'identifier': 'ament_cmake_gtest'}
+[0.000496] (-) JobUnselected: {'identifier': 'ament_cmake_include_directories'}
+[0.000503] (-) JobUnselected: {'identifier': 'ament_cmake_libraries'}
+[0.000510] (-) JobUnselected: {'identifier': 'ament_cmake_pytest'}
+[0.000519] (-) JobUnselected: {'identifier': 'ament_cmake_python'}
+[0.000527] (-) JobUnselected: {'identifier': 'ament_cmake_target_dependencies'}
+[0.000534] (-) JobUnselected: {'identifier': 'ament_cmake_test'}
+[0.000541] (-) JobUnselected: {'identifier': 'ament_cmake_vendor_package'}
+[0.000548] (-) JobUnselected: {'identifier': 'ament_cmake_version'}
+[0.000561] (-) JobUnselected: {'identifier': 'comp_simple_publisher_subscriber_cpp'}
+[0.000569] (-) JobUnselected: {'identifier': 'my_turtlesim'}
+[0.000577] (-) JobUnselected: {'identifier': 'my_turtlesim_cpp'}
+[0.000584] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000591] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000598] (-) JobUnselected: {'identifier': 'simple_pub_sub_cpp'}
+[0.000709] (-) JobUnselected: {'identifier': 'simple_pub_sub_py'}
+[0.000718] (-) JobUnselected: {'identifier': 'simple_publisher_subscriber_cpp'}
+[0.000726] (-) JobUnselected: {'identifier': 'simple_publisher_subscriber_py'}
+[0.000738] (-) JobUnselected: {'identifier': 'simple_service_client_cpp'}
+[0.000747] (-) JobUnselected: {'identifier': 'simple_service_client_py'}
+[0.000754] (-) JobUnselected: {'identifier': 'tf2_broadcaster_cpp'}
+[0.000762] (-) JobUnselected: {'identifier': 'tf2_broadcaster_py'}
+[0.000768] (-) JobUnselected: {'identifier': 'tf2_listener_cpp'}
+[0.000775] (-) JobUnselected: {'identifier': 'tf2_listener_py'}
+[0.000876] (-) JobUnselected: {'identifier': 'tf2_static_broadcaster_cpp'}
+[0.000895] (-) JobUnselected: {'identifier': 'tf2_static_broadcaster_py'}
+[0.000904] (-) JobUnselected: {'identifier': 'turtlesim_linear_cpp'}
+[0.000911] (-) JobUnselected: {'identifier': 'turtlesim_linear_py'}
+[0.000920] (ament_cmake) JobQueued: {'identifier': 'ament_cmake', 'dependencies': OrderedDict([('ament_cmake_core', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_core'), ('ament_cmake_export_definitions', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_definitions'), ('ament_cmake_export_include_directories', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_include_directories'), ('ament_cmake_export_libraries', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_libraries'), ('ament_cmake_export_link_flags', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_link_flags'), ('ament_cmake_include_directories', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_include_directories'), ('ament_cmake_libraries', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_libraries'), ('ament_cmake_python', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_python'), ('ament_cmake_version', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_version'), ('ament_cmake_export_dependencies', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_dependencies'), ('ament_cmake_export_interfaces', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_interfaces'), ('ament_cmake_export_targets', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_export_targets'), ('ament_cmake_target_dependencies', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_target_dependencies'), ('ament_cmake_test', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_test'), ('ament_cmake_gtest', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_gtest'), ('ament_cmake_gen_version_h', '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/ament_cmake_gen_version_h')])}
+[0.001033] (ament_cmake) JobStarted: {'identifier': 'ament_cmake'}
+[0.007089] (ament_cmake) JobEnded: {'identifier': 'ament_cmake', 'rc': 1}
+[0.007444] (-) EventReactorShutdown: {}

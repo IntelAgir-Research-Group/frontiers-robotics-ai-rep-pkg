@@ -1,0 +1,786 @@
+[0.334s] DEBUG:colcon:Command line arguments: ['/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/colcon', 'build']
+[0.335s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x105f2ebd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x105697bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x105697bd0>>)
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.420s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(code/cpp/simple_pub_sub) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(data/analysis/figs) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(exp-runners/log) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_cpp) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_cpp' with type 'ros.ament_cmake' and name 'action_tutorials_cpp'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_py) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/composable_node _cpp) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/composable_node _cpp' with type 'ros.ament_cmake' and name 'comp_simple_publisher_subscriber_cpp'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/old _my_turtlesim_cpp) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/old _my_turtlesim_cpp' with type 'ros.ament_cmake' and name 'my_turtlesim_cpp'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_my_turtlesim) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/old_my_turtlesim' with type 'ros.ament_python' and name 'my_turtlesim'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extension 'ignore'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_cpp) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/old_simple_pub_sub_cpp' with type 'ros.ament_cmake' and name 'simple_pub_sub_cpp'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_simple_pub_sub_py) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/old_simple_pub_sub_py' with type 'ros.ament_python' and name 'simple_pub_sub_py'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_cpp) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/old_turtlesim_linear_cpp' with type 'ros.ament_cmake' and name 'turtlesim_linear_cpp'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/old_turtlesim_linear_py) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/old_turtlesim_linear_py' with type 'ros.ament_python' and name 'turtlesim_linear_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_base) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_base' with type 'ros.ament_cmake' and name 'polygon_base'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/polygon_plugins) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/polygon_plugins' with type 'ros.ament_cmake' and name 'polygon_plugins'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_cpp) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_publisher_subscriber_cpp' with type 'ros.ament_cmake' and name 'simple_publisher_subscriber_cpp'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_publisher_subscriber_py) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_publisher_subscriber_py' with type 'ros.ament_python' and name 'simple_publisher_subscriber_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_cpp) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_service_client_cpp' with type 'ros.ament_cmake' and name 'simple_service_client_cpp'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_service_client_py) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_service_client_py' with type 'ros.ament_python' and name 'simple_service_client_py'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_cpp) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_broadcaster_cpp' with type 'ros.ament_cmake' and name 'tf2_broadcaster_cpp'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_broadcaster_py) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_broadcaster_py' with type 'ros.ament_python' and name 'tf2_broadcaster_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_cpp) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_listener_cpp' with type 'ros.ament_cmake' and name 'tf2_listener_cpp'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener_py) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_listener_py' with type 'ros.ament_python' and name 'tf2_listener_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_cpp) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_static_broadcaster_cpp' with type 'ros.ament_cmake' and name 'tf2_static_broadcaster_cpp'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_static_broadcaster_py) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_static_broadcaster_py' with type 'ros.ament_python' and name 'tf2_static_broadcaster_py'
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.464s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.464s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/action_tutorials_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'comp_simple_publisher_subscriber_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'comp_simple_publisher_subscriber_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/comp_simple_publisher_subscriber_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/composable_node _cpp', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'my_turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'my_turtlesim_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'my_turtlesim_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old _my_turtlesim_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'polygon_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/polygon_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/polygon_base', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_base', 'symlink_install': False, 'test_result_base': None}
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'simple_pub_sub_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_pub_sub_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'simple_pub_sub_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_py', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'simple_publisher_subscriber_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_publisher_subscriber_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_publisher_subscriber_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'simple_publisher_subscriber_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_publisher_subscriber_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_py', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'simple_service_client_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_service_client_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_service_client_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_service_client_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'simple_service_client_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'simple_service_client_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_service_client_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_service_client_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_service_client_py', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_broadcaster_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/tf2_broadcaster_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/tf2_broadcaster_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/tf2_broadcaster_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_broadcaster_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_broadcaster_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/tf2_broadcaster_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/tf2_broadcaster_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/tf2_broadcaster_py', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_listener_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/tf2_listener_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/tf2_listener_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/tf2_listener_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_listener_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/tf2_listener_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/tf2_listener_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/tf2_listener_py', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_static_broadcaster_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/tf2_static_broadcaster_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/tf2_static_broadcaster_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/tf2_static_broadcaster_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'tf2_static_broadcaster_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_static_broadcaster_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/tf2_static_broadcaster_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/tf2_static_broadcaster_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/tf2_static_broadcaster_py', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_linear_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/turtlesim_linear_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/turtlesim_linear_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_turtlesim_linear_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_linear_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_linear_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/turtlesim_linear_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/turtlesim_linear_py', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_turtlesim_linear_py', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/action_tutorials_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_cpp', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'polygon_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'polygon_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/polygon_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/polygon_plugins', 'merge_install': False, 'path': '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.469s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_interfaces' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_interfaces'
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/usr/local/opt/qt' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_base' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_base'
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/composable_node _cpp' with build type 'ament_cmake'
+[0.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/composable_node _cpp'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim' with build type 'ament_python'
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlesim', 'ament_prefix_path')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/hook/ament_prefix_path.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/hook/ament_prefix_path.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/hook/ament_prefix_path.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old _my_turtlesim_cpp' with build type 'ament_cmake'
+[0.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old _my_turtlesim_cpp'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_cpp' with build type 'ament_cmake'
+[0.491s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_cpp'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_py' with build type 'ament_python'
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_pub_sub_py', 'ament_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/hook/ament_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/hook/ament_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/hook/ament_prefix_path.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_cpp' with build type 'ament_cmake'
+[0.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_cpp'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/action_tutorials_interfaces': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/polygon_base': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_base -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/polygon_base
+[0.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/comp_simple_publisher_subscriber_cpp': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/composable_node _cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp
+[0.650s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim'
+[0.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim_cpp': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old _my_turtlesim_cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim_cpp
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_cpp': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp
+[0.805s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_py'
+[0.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_publisher_subscriber_cpp': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim': PYTHONPATH=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages: SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlesim build --build-base /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build install --record /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log --single-version-externally-managed install_data
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_py': PYTHONPATH=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages: SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_pub_sub_py build --build-base /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build install --record /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/install.log --single-version-externally-managed install_data
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_my_turtlesim' returned '0': PYTHONPATH=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages: SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlesim build --build-base /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/build install --record /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim/install.log --single-version-externally-managed install_data
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim' for CMake module files
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim' for CMake config files
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/bin'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/pkgconfig/my_turtlesim.pc'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/lib/python3.11/site-packages'
+[1.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlesim', 'pythonpath')
+[1.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/hook/pythonpath.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/hook/pythonpath.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/hook/pythonpath.sh'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/bin'
+[1.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_turtlesim)
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/package.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/package.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/package.sh'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/package.bash'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/my_turtlesim/package.zsh'
+[1.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim/share/colcon-core/packages/my_turtlesim)
+[1.555s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_py' with build type 'ament_python'
+[1.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_publisher_subscriber_py', 'ament_prefix_path')
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_py/share/simple_publisher_subscriber_py/hook/ament_prefix_path.ps1'
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_py/share/simple_publisher_subscriber_py/hook/ament_prefix_path.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_py/share/simple_publisher_subscriber_py/hook/ament_prefix_path.sh'
+[1.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.918s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_py'
+[1.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py' for CMake module files
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py' for CMake config files
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/bin'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/pkgconfig/simple_pub_sub_py.pc'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages'
+[1.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_pub_sub_py', 'pythonpath')
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/hook/pythonpath.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/hook/pythonpath.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/hook/pythonpath.sh'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/bin'
+[1.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_pub_sub_py)
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/package.ps1'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/package.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/package.sh'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/package.bash'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/simple_pub_sub_py/package.zsh'
+[1.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/share/colcon-core/packages/simple_pub_sub_py)
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_py' returned '0': PYTHONPATH=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/prefix_override:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_py/lib/python3.11/site-packages: SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/.venv/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_pub_sub_py build --build-base /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/build install --record /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_py/install.log --single-version-externally-managed install_data
+[1.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_pub_sub_cpp' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old_simple_pub_sub_cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/comp_simple_publisher_subscriber_cpp' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/composable_node _cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/simple_publisher_subscriber_cpp' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_publisher_subscriber_cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/action_tutorials_interfaces' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/polygon_base' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/polygon_base -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/polygon_base
+[1.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/build/my_turtlesim_cpp' returned '1': SHLVL=2 VIRTUAL_ENV_PROMPT=(.venv) _=/usr/bin/env /opt/homebrew/bin/cmake /Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/old _my_turtlesim_cpp -DCMAKE_INSTALL_PREFIX=/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/my_turtlesim_cpp
+[1.960s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_service_client_cpp' with build type 'ament_cmake'
+[1.961s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/src/simple_service_client_cpp'
+[1.961s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_pub_sub_cpp)
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp' for CMake module files
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp' for CMake config files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/lib'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/bin'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/lib/pkgconfig/simple_pub_sub_cpp.pc'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/lib/python3.11/site-packages'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/bin'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/share/simple_pub_sub_cpp/package.ps1'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/share/simple_pub_sub_cpp/package.dsv'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/share/simple_pub_sub_cpp/package.sh'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/share/simple_pub_sub_cpp/package.bash'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/share/simple_pub_sub_cpp/package.zsh'
+[1.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_pub_sub_cpp/share/colcon-core/packages/simple_pub_sub_cpp)
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(comp_simple_publisher_subscriber_cpp)
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp' for CMake module files
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp' for CMake config files
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/lib'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/bin'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/lib/pkgconfig/comp_simple_publisher_subscriber_cpp.pc'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/lib/python3.11/site-packages'
+[1.976s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/bin'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/share/comp_simple_publisher_subscriber_cpp/package.ps1'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/share/comp_simple_publisher_subscriber_cpp/package.dsv'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/share/comp_simple_publisher_subscriber_cpp/package.sh'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/share/comp_simple_publisher_subscriber_cpp/package.bash'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/share/comp_simple_publisher_subscriber_cpp/package.zsh'
+[1.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/comp_simple_publisher_subscriber_cpp/share/colcon-core/packages/comp_simple_publisher_subscriber_cpp)
+[1.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_publisher_subscriber_cpp)
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp' for CMake module files
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp' for CMake config files
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/lib'
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/bin'
+[1.980s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/lib/pkgconfig/simple_publisher_subscriber_cpp.pc'
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/lib/python3.11/site-packages'
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/bin'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/share/simple_publisher_subscriber_cpp/package.ps1'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/share/simple_publisher_subscriber_cpp/package.dsv'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/share/simple_publisher_subscriber_cpp/package.sh'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/share/simple_publisher_subscriber_cpp/package.bash'
+[1.982s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/share/simple_publisher_subscriber_cpp/package.zsh'
+[1.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/simple_publisher_subscriber_cpp/share/colcon-core/packages/simple_publisher_subscriber_cpp)
+[1.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces' for CMake module files
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces' for CMake config files
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/lib'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/bin'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/lib/python3.11/site-packages'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/bin'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[1.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[2.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.234s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[2.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[2.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.235s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'terminal_notifier'
+[2.370s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/local_setup.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/_local_setup_util_ps1.py'
+[2.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/setup.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/local_setup.sh'
+[2.375s] INFO:colcon.colcon_core.shell:Creating prefix util module '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/_local_setup_util_sh.py'
+[2.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/setup.sh'
+[2.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/local_setup.bash'
+[2.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/setup.bash'
+[2.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/local_setup.zsh'
+[2.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/Users/professormichel/Documents/GitHub/energy-ros2-cpp-python/install/setup.zsh'
