@@ -1,5 +1,9 @@
-# energy-ros2-cpp-python
-Replication package of our paper: *Comparing Energy Efficiency in ROS Communication]{Comparing Energy Efficiency in ROS Communication Across Programming Languages and Preset Workloads* - Document under review: `Frontiers Robotics and AI`.
+# Replication Package: Comparing Energy Efficiency in ROS Communication Across Programming Languages and Preset Workloads
+Document under review: `Frontiers Robotics and AI`.
+
+```
+The Robot Operating System (ROS) is a widely used framework for robotic software development, providing robust client libraries for both C++ and Python. These languages, with their differing levels of abstraction, exhibit distinct resource usage patterns, including power and energy consumption - an increasingly critical quality metric in robotics. In this study, we evaluate the energy efficiency of ROS 2 nodes implemented in C++ and Python, focusing on the primary ROS communication paradigms: topics, services, and actions. Through a series of empirical experiments, with programming language, message interval, and number of clients as independent variables, we analyze the impact on energy efficiency across implementations of the three paradigms. Our data analysis demonstrates that Python consistently demands more computational resources, leading to higher power consumption compared to C++. Furthermore, we find that message frequency is a highly influential factor, while the number of clients has a more variable and less significant effect on resource usage, despite revealing unexpected architectural behaviors of underlying programming and communication layers.
+```
 
 ## How to cite us
 
@@ -41,6 +45,15 @@ source setup.bash
 bash run-pubsub-er.sh
 bash run-service-er.sh
 bash run-action-er.sh
+```
+
+If you prefer, you can also run it in `standalone` mode, with a fully bash-based orchestration (it eliminates the orchestration layer - no impact in the results):
+
+```bash
+source setup.bash
+bash run-pubsub-standalone.sh
+bash run-service-standalone.sh
+bash run-action-standalone.sh
 ```
 
 ## Statistical Analysis and Graph Generation
