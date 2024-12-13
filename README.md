@@ -28,7 +28,7 @@ Since we need special wrappers for `Cpp` algorithms, which are not trivial to se
 
 For running the experiments, we rely on [Experiment-Runner](https://github.com/S2-group/experiment-runner) (ER). Please, look at its documentation to get started.
 
-Each experiment is defined in a single [RunnerConfig-**\[communication\]**.py](./exp-runner/) file.
+Each experiment is defined in a single [RunnerConfig-**\[communication\]**.py](./exp-runners/) file.
 
 Install the project dependencies:
 
