@@ -1,0 +1,23 @@
+services:
+
+  server:
+    build: .
+    command: /bin/bash
+    tty: true
+    volumes:
+      - source:/projeto  # Use the defined source volume
+
+  client:
+    build: .
+    command: /bin/bash
+    tty: true
+    volumes:
+      - source:/projeto  # Use the defined source volume
+
+volumes:
+  source:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /home/michel/Documents/GitHub/energy-ros2-cpp-python/

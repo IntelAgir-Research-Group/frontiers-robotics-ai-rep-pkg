@@ -1,5 +1,5 @@
-# Comparing Energy Efficiency in ROS Communication Across Programming Languages and Preset Workloads (under review)
-Replication package of our paper that compares de energy efficiency of Python and C++ for ROS 2 projetcs. Document under supervision at `Frontiers Robotics and AI`.
+# energy-ros2-cpp-python
+Replication package of our paper: *Comparing Energy Efficiency in ROS Communication]{Comparing Energy Efficiency in ROS Communication Across Programming Languages and Preset Workloads* - Document under review: `Frontiers Robotics and AI`.
 
 ## How to cite us
 
@@ -9,7 +9,7 @@ TBA
 
 We have a local SonarQube deployment to check the algorithm measurements.
 
-To run it in you machine, follow the steps:
+To run it in your machine, follow the steps:
 
 ```bash
 bash sonarqube.sh
@@ -24,7 +24,7 @@ Since we need special wrappers for `Cpp` algorithms, which are not trivial to se
 
 For running the experiments, we rely on [Experiment-Runner](https://github.com/S2-group/experiment-runner) (ER). Please, look at its documentation to get started.
 
-All the experiment is defined in the [RunnerConfig.py](./exp-runner/RunnerConfig.py) file.
+Each experiment is defined in a single [RunnerConfig-**\[communication\]**.py](./exp-runner/) file.
 
 Install the project dependencies:
 
@@ -34,27 +34,16 @@ pip3 install -r requirements.txt
 
 Install `PowerJoular` for energy consumption measurements: [Documentation WebSite](https://joular.github.io/powerjoular/guide/installation.html).
 
-Configure the right paths in the `setup.bash` file, and then run:
+Configure the right paths in the `setup.bash` file, and then run the experiments for the three communication patterns, one by one:
 
 ```bash
 source setup.bash
-python3 $EXPERIMENT_RUNNER_PATH ./exp_runner/RunnerConfig-pubsub.py &&
-python3 $EXPERIMENT_RUNNER_PATH ./exp_runner/RunnerConfig-service.py &&
-python3 $EXPERIMENT_RUNNER_PATH ./exp_runner/RunnerConfig-action.py
+bash run-pubsub-er.sh
+bash run-service-er.sh
+bash run-action-er.sh
 ```
 
-We were running the experiment incrementally as we finished programming the algorithms, soon we will provida a single execution file.
-
-
-## Extra Energy Consumption Measurements
-
-For monitoring the energy consumption, we can also rely on `exp_runners/profilers/energy-mon.py` script as superuser (root).
-
-```bash
-python3 energy-mon.py <script> <language>
-```
-
-## Generate Graphs
+## Statistical Analysis and Graph Generation
 
 Change directory to `data-analys` folder:
 
@@ -62,16 +51,30 @@ Change directory to `data-analys` folder:
 cd data-analisys/
 ```
 
-Generate the graphs:
+Run the statistical tests:
 ```bash
-python3 gen_graphs.py subpub
-python3 gen_graphs.py service
-python3 gen_graphs.py action
+python3 statistical_tests.py
 ```
 
-All the graphs are saved in the `graphs` folder.
+The statistical log will be separated by run identification. All the graphs are saved in the `graphs` folder, with the following subfolders:
 
-## TODO/IMPROVEMENTS
-- service do not show second client messages
-- action client hangs
-- For topic `pub_sub`, implement different message types.
+```
+- no_transf-no_out/  Original data.
+- no_transf-out/     Transformed data.
+- transf-no_out/     Data without outliers.
+- tranf-out/         Transformed data without outliers.
+```
+
+For overall violin plotting, run the follow command:
+```bash
+python3 gen_overall_graphs.py
+```
+
+For `Latex` tables with mean values, run the follow command:
+```bash
+python3 gen_mean_table.py
+```
+
+## Reporting Issues
+
+For any issues, please contact Professor Michel Albonico (e-mail: [michelalbonico@utfpr.edu.br](mailto:michelalbonico@utfpr.edu.br))
