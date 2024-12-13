@@ -187,17 +187,15 @@ def statistical_tests():
     global algo
     global d_folder
 
-    #algos = {'pubsub','service','action'}
-    algos = {'pubsub'}
-    #components = {'server', 'client'}
+    algos = {'pubsub','service','action'}
+    components = {'server', 'client'}
     components = {'server'}
     intervals = {0.05,0.1,0.25,0.5,1.0}
     num_clients = {1,2,3}
     languages = {'py','cpp'}
-    #transformations = {True, False}
-    #list_outliers = {True, False}
-    transformations = {False}
-    list_outliers = {False}
+    transformations = {True, False}
+    list_outliers = {True, False}
+
 
     for algo in algos:
         algo_folder=''

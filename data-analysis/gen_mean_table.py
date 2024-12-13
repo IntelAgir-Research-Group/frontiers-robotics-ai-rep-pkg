@@ -46,9 +46,8 @@ def dict_to_dataframe(dict, component):
     return df
 
 # Factors
-#algos = {'pubsub','service','action'}
-algos = {'pubsub'}
-components = {'client'}
+algos = {'pubsub','service'}
+components = {'server', 'client'}
 intervals = {0.05,0.10,0.25,0.50,1.0}
 intervals_list = list(sorted(intervals))
 num_clients = {1,2,3}
