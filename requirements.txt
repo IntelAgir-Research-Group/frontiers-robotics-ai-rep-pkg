@@ -8,3 +8,5 @@ pandas
 seaborn
 scipy
 statsmodels
+pingouin
+scikit_posthocs

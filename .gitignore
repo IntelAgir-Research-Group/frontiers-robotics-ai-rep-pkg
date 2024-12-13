@@ -1,0 +1,4 @@
+
+/.venv
+data-analysis/concatenated_file.csv
+data-analysis/__pycache__/load_data.cpython-310.pyc
