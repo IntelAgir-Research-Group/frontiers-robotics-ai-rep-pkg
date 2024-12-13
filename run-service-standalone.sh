@@ -11,7 +11,7 @@ client_name='service_client'
 
 pkill python3
 COUNT=0
-exp_result="./exp_runners/experiments/cpp_py_ros2_service_standalone_py"
+exp_result="./exp_runners/experiments/cpp_py_ros2_service_standalone"
 mkdir -p $exp_result
 
 python3 exp_runners/standalone/read_runtable.py exp_runners/standalone/service_runtable.csv > service_remain_runs.txt

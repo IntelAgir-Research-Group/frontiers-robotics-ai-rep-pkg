@@ -11,7 +11,7 @@ client_name='action_client'
 
 pkill python3
 COUNT=0
-exp_result="./exp_runners/experiments/cpp_py_ros2_action_standalone_low_frequency_cpp"
+exp_result="./exp_runners/experiments/cpp_py_ros2_action_standalone"
 mkdir -p $exp_result
 
 python3 exp_runners/standalone/read_runtable.py exp_runners/standalone/action_runtable.csv > action_remain_runs.txt

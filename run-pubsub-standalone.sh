@@ -11,7 +11,7 @@ client_name='listener'
 
 pkill python3
 COUNT=0
-exp_result="./exp_runners/experiments/cpp_py_ros2_pub_sub_standalone_py"
+exp_result="./exp_runners/experiments/cpp_py_ros2_pub_sub_standalone"
 mkdir -p $exp_result
 
 python3 exp_runners/standalone/read_runtable.py exp_runners/standalone/pubsub_runtable.csv > pubsub_remain_runs.txt
