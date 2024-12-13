@@ -195,7 +195,8 @@ class LoadData:
                     avg_mem_pct = mem_df['mem'].mean() #/ 1024
                     runs_data[new_id] = avg_mem_pct
                 except Exception as e:
-                    print(f"Error processing file for run_id {run_id}: {e}")
+                    #print(f"Error processing file for run_id {run_id}: {e}")
+                    pass
 
         avg_mem_df = pd.DataFrame(list(runs_data.items()), columns=['__run_id', 'avg_mem_pct'])
         merged_df = df.merge(avg_mem_df, on='__run_id')

@@ -46,8 +46,9 @@ def dict_to_dataframe(dict, component):
     return df
 
 # Factors
-algos = {'pubsub','service','action'}
-components = {'server', 'client'}
+#algos = {'pubsub','service','action'}
+algos = {'pubsub'}
+components = {'client'}
 intervals = {0.05,0.10,0.25,0.50,1.0}
 intervals_list = list(sorted(intervals))
 num_clients = {1,2,3}
@@ -56,6 +57,7 @@ languages = {'py','cpp'}
 languages_list = list(languages)
 
 for algo in algos:
+    print(f">>>>>>>>>>>>>>>>>>>>>>>>>>> {algo} <<<<<<<<<<<<<<<<<<<<<<<<<<<<")
     algo_folder=''
     dest_folder=''
     num_rows=0
@@ -86,6 +88,7 @@ for algo in algos:
 
     data = []
     for component in components:
+        print(f"--------------------- {component} ---------------------")
         component_power = []
         component_energy = []
         measurement_dict = {}

@@ -187,13 +187,17 @@ def statistical_tests():
     global algo
     global d_folder
 
-    algos = {'pubsub','service','action'}
-    components = {'server', 'client'}
+    #algos = {'pubsub','service','action'}
+    algos = {'pubsub'}
+    #components = {'server', 'client'}
+    components = {'server'}
     intervals = {0.05,0.1,0.25,0.5,1.0}
     num_clients = {1,2,3}
     languages = {'py','cpp'}
-    transformations = {True, False}
-    list_outliers = {True, False}
+    #transformations = {True, False}
+    #list_outliers = {True, False}
+    transformations = {False}
+    list_outliers = {False}
 
     for algo in algos:
         algo_folder=''
@@ -286,6 +290,7 @@ def statistical_tests():
                                     gen_single_density_graph(cleaned_df, {str(language),str(interval), str(clients)})
                                 shapiro_wilk(cleaned_df, 'avg_energy_pct', 'num_clients')
                         grouped_df = l_data.group_df_by(df_language,'num_clients',outliers)
+                        print(f"Language {language} and different num_clients")
                         if shapiro_wilk(grouped_df, 'avg_energy_pct', 'num_clients'):
                             print(f"Levene's test for language {language} and different num_clients.")
                             levene_test(grouped_df,'avg_energy_pct')
