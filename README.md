@@ -47,6 +47,8 @@ bash run-service-er.sh
 bash run-action-er.sh
 ```
 
+For the experiments, we provide extra drivers (for Docker orchestrationg) and profilers (for CPU, Memory and Energy), which are available in the `exp_runners` folder.
+
 If you prefer, you can also run it in `standalone` mode, with a fully bash-based orchestration (it eliminates the orchestration layer - no impact in the results):
 
 ```bash
