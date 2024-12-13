@@ -1,1 +1,0 @@
-docker-compose -f docker/sonarqube-sonnar.yaml run --rm sonar-scanner

@@ -1,2 +1,0 @@
-[console_scripts]
-turtlesim_node = my_turtlesim.turtlesim_node:main
