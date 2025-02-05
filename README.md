@@ -20,7 +20,6 @@ Bibtex:
 	url = {https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1548250/abstract},
 	doi = {10.3389/frobt.2025.1548250},
 	language = {English},
-	urldate = {2025-02-05},
 	journal = {Frontiers in Robotics and AI},
 	author = {Albonico, Michel and Canizza, Manuela Bechara and Wortmann, Andreas},
 	month = jan,
