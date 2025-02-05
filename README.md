@@ -7,7 +7,28 @@ The Robot Operating System (ROS) is a widely used framework for robotic software
 
 ## How to cite us
 
-TBA
+M. Albonico, M. B. Canizza, and A. Wortmann, “Energy Efficiency in ROS Communication: A Comparison Across Programming Languages and Workloads,” Front. Robot. AI, vol. 12, Jan. 2025, doi: 10.3389/frobt.2025.1548250.
+
+Bibtex:
+```
+
+@article{albonico_energy_2025,
+	title = {Energy {Efficiency} in {ROS} {Communication}: {A} {Comparison} {Across} {Programming} {Languages} and {Workloads}},
+	volume = {12},
+	issn = {2296-9144},
+	shorttitle = {Energy {Efficiency} in {ROS} {Communication}},
+	url = {https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1548250/abstract},
+	doi = {10.3389/frobt.2025.1548250},
+	language = {English},
+	urldate = {2025-02-05},
+	journal = {Frontiers in Robotics and AI},
+	author = {Albonico, Michel and Canizza, Manuela Bechara and Wortmann, Andreas},
+	month = jan,
+	year = {2025},
+	note = {Publisher: Frontiers}
+}
+```
+
 
 ## Algoritm Complexity Measurement
 
